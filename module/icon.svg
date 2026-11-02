@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="LiveLink">
+  <title>LiveLink</title>
+  <desc>iPhone 轮廓内嵌一张人脸，向右侧发出信号波纹，透明背景，单色在中性灰度下对深色与浅色主题都可读。</desc>
+  <g fill="none" stroke="#8C97AC" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="30" y="14" width="48" height="100" rx="10" />
+    <path d="M48 24 h12" />
+    <circle cx="46" cy="56" r="3.5" />
+    <circle cx="62" cy="56" r="3.5" />
+    <path d="M44 82 c6 8 16 8 22 0" />
+    <path d="M88 44 c10 8 10 32 0 40" />
+    <path d="M100 34 c16 12 16 48 0 60" />
+  </g>
+</svg>

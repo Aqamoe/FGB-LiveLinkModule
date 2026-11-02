@@ -1,0 +1,14 @@
+{
+  "ModuleId": "com.fgbbridge.livelink",
+  "ModuleName": "LiveLink",
+  "AuthorName": "Aqamoe (光水)",
+  "Version": "0.1.0",
+  "ModuleDescription": "接收 iPhone 上 Unreal LiveLink Face App 推送的 UDP 尾包（11111 端口，244 字节 / 61 个大端 float32），映射 52 项 ARKit 系数为 Unified Expressions 表情，输出睁眼度与逐眼注视方向。不需要 VRCFT，不注入进程。",
+  "UsageInstructions": "1. iPhone 安装 Unreal LiveLink 的 Face App，在 App 里把这台 PC 的局域网 IP 填进连接地址（默认端口 11111）。2. 关闭 VRCFaceTracking：它的 LiveLink 模块会抢同一个 11111 端口。3. 在「模块」页把 LiveLink 设为启动并重启引擎，模块卡片应显示活跃。本模块为社区未验证实现，真机验收见仓库 docs/verification.md。",
+  "ModulePageUrl": "https://github.com/Aqamoe/FGB-LiveLinkModule",
+  "ModuleIcon": "icon.svg",
+  "DllFileName": "livelink.dll",
+  "AbiVersion": 2,
+  "Capabilities": ["expression", "eyes"],
+  "RoleHint": "expression"
+}
